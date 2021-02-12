@@ -1,0 +1,31 @@
+form {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+form input {
+    width: 250px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    box-shadow: 1px 2px #b3d7ff;
+}
+
+form input::placeholder {
+    color: #4da3ff;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.submitButton {
+    width: 150px;
+    margin-left: 30px;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 2px #b3d7ff;
+    background: #0077ff;
+    color: white;
+    font-size: 18px;
+}
