@@ -3,7 +3,7 @@ import s from "./Form.module.scss";
 
 const Form = (props) => {
 
-  let addRowToTable = () => {
+  let addRowToTable = (event) => {
     props.addRow(props.firstnameValue, props.secondnameValue, props.emailValue);
   }
 
