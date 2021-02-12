@@ -30,7 +30,7 @@ const Form = (props) => {
         />
       </form>
       <button className={s.submitButton} onClick={addRowToTable}>
-        Add
+        Add Row
       </button>
     </div>
   );
